@@ -1,0 +1,49 @@
+/*fonts*/
+h1 {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+h2, h3, h4{
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.site-footer{
+    background-color:rgba(0, 0, 0, 0.904);
+    color:white;
+}
+a:link, .home {
+    color: white; 
+  }
+
+/*Navbar*/
+/*logo */
+.img-responsive {
+    width:200px;
+    height: 200px;
+}
+.navbar-brand img {
+    height: 4rem;
+  }
+.navbar-custom{
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+}
+/* header */
+.masthead {
+  height: 80vh;
+  min-height: 300px;
+  margin: 0 20px;
+  background-image: url("/img/photo-1590880795696-20c7dfadacde.jfif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#head {
+  background-color:#00000094;
+  color: white;
+}
+a, .btn-light{
+  color: black;
+}
