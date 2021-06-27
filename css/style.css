@@ -7,13 +7,6 @@ h2, h3, h4{
     font-family: 'Gothic A1', sans-serif;
 }
 
-.site-footer{
-    background-color:rgba(0, 0, 0, 0.904);
-    color:white;
-}
-a:link, .home {
-    color: white; 
-  }
 
 /*Navbar*/
 /*logo */
@@ -44,6 +37,48 @@ a:link, .home {
   background-color:#00000094;
   color: white;
 }
-a, .btn-light{
+
+
+/* a, #shopNow {
+  color: black;
+} */
+
+/*footer*/
+.site-footer{
+  background-color:rgba(0, 0, 0, 0.904);
+  color:white;
+  padding-top: 1%;
+  
+   
+}
+.list-unstyled , a{
+  color: white;
+  
+}
+.list-unstyled, a:hover{
+color: white;
+}
+#emailLink{
+  color: white;
+}
+
+/*about page*/
+
+.aboutCard{
+  max-width: 50rem;
+  margin: auto;
+  /* display: flex;
+  justify-content: center; */
+
+}
+
+#accordion {
+  width:80%;
+  margin: auto;
+  text-align: center;
+}
+#accordion .btn{
   color: black;
 }
+
+/*shop page */
