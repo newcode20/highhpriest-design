@@ -81,4 +81,14 @@ color: white;
   color: black;
 }
 
+/*contact page*/
+.form-title{
+  text-align: center;
+}
+form {
+  margin: 1rem;
+}
+.formBtn{
+  background-color: rgba(0, 0, 0, 0.904);
+}
 /*shop page */

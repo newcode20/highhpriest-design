@@ -22,7 +22,7 @@
 
 <!--navbar-->
 <header>
-        <nav class="navbar bg-white navbar-light navbar-expand-md navbar-custom fixed-top" >
+        <nav class="navbar bg-white navbar-light navbar-expand-md navbar-custom" >
             <div class="container">
                 <!--logo that links to index-->
                 <a href="index.html" class="navbar-brand"><img src="img/justinlogovectors-01.png" alt="Logo" title="Logo"> Highhpriest Design</a>
@@ -48,9 +48,65 @@
 </header>
 
 <!--end navbar-->
-
-
-
+<!--Contact form-->
+<div class="container">
+    <div class="row row-content">
+        <div class="col-12 form-title">
+            <h2>Contact Us!</h2>
+        
+        <div class='col-12 align-items-center'>
+            <span>If you would like a to request a custom piece or wish to reach out to the artist, please fill out the form below!</span>
+        </div>
+    </div>
+    
+        <form>
+            <div class="form-group row">
+            <label for="inputEmail" class="col-sm-1 col-form-label">Email</label>
+            <div class="col-sm-6">
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+            </div>
+            <div class="form-group row">
+            <label for="name" class="col-sm-1 col-form-label">Name</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="name" placeholder="Name">
+            </div>
+            </div>
+            <fieldset class="form-group">
+            <div class="row">
+                <legend class="col-form-label col-sm-12 pt-0">Are you requesting a custom piece?</legend>
+                <div class="col-sm-10">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="customOption" id="customYes" value="customYes" checked>
+                    <label class="form-check-label" for="customYes">
+                    Yes
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="customOption" id="customNo" value="customNo">
+                    <label class="form-check-label" for="customNo">
+                    No
+                    </label>
+                </div>
+                </div>
+            </div>
+            </fieldset>
+            <div class="form-group">
+                <label for="emailText">Please explain why you are reaching out today!</label>
+                <textarea class="form-control" id="emailText" rows="3"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="formAttachment" class="attachment">If you are requesting a custom piece and have a stone you would like us to use, please attach the file here!</label><br>
+                <input type="file" name="formAttachment" id="formAttachment">
+              </div>
+            <div class="form-group row">
+                <div class="col-sm-10">
+                    <button type="submit" class="btn btn-dark formBtn">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
 
 
 <!--footer-->
