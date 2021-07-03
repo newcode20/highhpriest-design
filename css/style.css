@@ -48,8 +48,6 @@ h2, h3, h4{
   background-color:rgba(0, 0, 0, 0.904);
   color:white;
   padding-top: 1%;
-  
-   
 }
 .list-unstyled , a{
   color: white;
@@ -73,8 +71,8 @@ color: white;
 }
 
 #accordion {
-  width:80%;
-  margin: auto;
+  /* width:80%;
+  margin: auto; */
   text-align: center;
 }
 #accordion .btn{
@@ -92,3 +90,9 @@ form {
   background-color: rgba(0, 0, 0, 0.904);
 }
 /*shop page */
+/* this effects all cards on website
+.card {
+  padding: 0%;
+  margin: 3rem;
+} */
+

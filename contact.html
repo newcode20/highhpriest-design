@@ -25,24 +25,27 @@
         <nav class="navbar bg-white navbar-light navbar-expand-md navbar-custom" >
             <div class="container">
                 <!--logo that links to index-->
-                <a href="index.html" class="navbar-brand"><img src="img/justinlogovectors-01.png" alt="Logo" title="Logo"> Highhpriest Design</a>
+                <a href="index.html"        class="navbar-brand"><img src="img/justinlogovectors-01.png" alt="Logo" title="Logo"> Highhpriest Design</a>
 
-                <!--the dropdown menu icon toggler-->
+<!--the dropdown menu icon toggler-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"><span class="navbar-toggler-icon"></span>
                 </button>
 
                 <!--This is the element that wraps around nav unordered list-->
-                <div class="collapse navbar-collapse" id="navbarResponsive">
+
+                <!--Added text center to have the dropdown menu centered-->
+                <div class="collapse navbar-collapse text-center" id="navbarResponsive">
                     <!--unordered list, to have them to the right you use ml-auto-->
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
                         <li class="nav-item"><a href="shop.html" class="nav-link">Shop</a></li>
                         <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                         <li class="nav-item"><a href="#" class="nav-link active">Contact</a></li>
+                        <a class="btn" href=""><i class="fa fa-shopping-cart fa-lg"></i></a>
                     </ul>
                     
                 </div>
-                <a class="btn" href=""><i class="fa fa-shopping-cart fa-lg"></i></a>
+                
             </div>
         </nav>
 </header>
@@ -50,7 +53,7 @@
 <!--end navbar-->
 <!--Contact form-->
 <div class="container">
-    <div class="row row-content">
+    <div class="row">
         <div class="col-12 form-title">
             <h2>Contact Us!</h2>
         
@@ -94,11 +97,11 @@
             <div class="form-group">
                 <label for="emailText">Please explain why you are reaching out today!</label>
                 <textarea class="form-control" id="emailText" rows="3"></textarea>
-              </div>
-              <div class="form-group">
+            </div>
+            <div class="form-group">
                 <label for="formAttachment" class="attachment">If you are requesting a custom piece and have a stone you would like us to use, please attach the file here!</label><br>
                 <input type="file" name="formAttachment" id="formAttachment">
-              </div>
+            </div>
             <div class="form-group row">
                 <div class="col-sm-10">
                     <button type="submit" class="btn btn-dark formBtn">Submit</button>
@@ -110,7 +113,7 @@
 
 
 <!--footer-->
-    <footer class="site-footer">
+    <footer class="site-footer fixed-bottom">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-4 col-sm-2 offset-1">
